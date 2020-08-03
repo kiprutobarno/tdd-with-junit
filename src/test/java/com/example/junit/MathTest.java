@@ -13,12 +13,12 @@ public class MathTest {
     Math math = new Math();
 
     @BeforeAll
-    public void before(){
+    public static void before(){
         System.out.println("Before");
     }
 
     @AfterAll
-    public void after(){
+    public static void after(){
         System.out.println("After");
     }
 
